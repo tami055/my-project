@@ -13,7 +13,6 @@ namespace Myproject.Web.Controllers
     public class PermissionController : Controller
     {
         private readonly IPermissionsRepository _permissionRepository;
-
         public PermissionController(IPermissionsRepository permission)
         {
           
